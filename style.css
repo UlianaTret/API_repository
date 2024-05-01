@@ -1,0 +1,74 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Roboto, serif;
+    font-weight: 400;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    width: 661px;
+    background: #C4C4C4;
+}
+
+.content {
+    width: 500px;
+    margin: 62px 84px 72px 77px;
+}
+
+.search {
+    flex-direction: column;
+}
+
+input {
+    height: 61px;
+    width: 500px;
+    padding: 5px 13px;
+    line-height: 56px;
+    font-size: 48px;
+}
+
+.name {
+    background: #E3E3E3;
+    border: #000000 2px solid;
+    padding: 9px 13px;
+    line-height: 35px;
+    font-size: 30px;
+}
+
+.name:hover {
+    background: #65CDF9;
+    cursor: pointer;
+}
+
+.container {
+    border: #000000 1px solid;
+}
+
+.repository {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #E27BEB;
+    border: #000000 1px solid;
+    padding: 8px 16px;
+    line-height: 28px;
+    font-size: 24px;
+}
+
+.info {
+    white-space: pre-wrap;
+}
+
+button {
+    border-color: rgba(0, 0, 0, 0);
+    background: rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
